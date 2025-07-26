@@ -16,8 +16,8 @@
         "C:\\Users\\Dell\\.nuget\\packages\\excelnumberformat\\1.1.0\\lib/netstandard2.0/ExcelNumberFormat.dll",
         "C:\\Users\\Dell\\.nuget\\packages\\extendednumerics.bigdecimal\\2025.1001.2.129\\lib/net8.0/ExtendedNumerics.BigDecimal.dll",
         "C:\\Users\\Dell\\.nuget\\packages\\mathnet.numerics.signed\\5.0.0\\lib/net6.0/MathNet.Numerics.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.2\\lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\lib/net7.0/Microsoft.Extensions.DependencyInjection.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.3\\lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "C:\\Users\\Dell\\.nuget\\packages\\microsoft.io.recyclablememorystream\\3.0.0\\lib/net6.0/Microsoft.IO.RecyclableMemoryStream.dll",
         "C:\\Users\\Dell\\.nuget\\packages\\newtonsoft.json\\13.0.3\\lib/net6.0/Newtonsoft.Json.dll",
         "C:\\Users\\Dell\\.nuget\\packages\\npoi\\2.7.3\\lib/net8.0/NPOI.Core.dll",
@@ -45,15 +45,176 @@
         "C:\\Users\\Dell\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/OFFICE.dll",
         "C:\\Users\\Dell\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/UiPath.OfficeLibs.Package.dll",
         "C:\\Users\\Dell\\.nuget\\packages\\uipath.opentelemetry.contracts\\2.5.26\\lib/netstandard2.0/UiPath.OpenTelemetry.Contracts.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.platform\\25.4.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.platform\\25.6.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
         "C:\\Users\\Dell\\.nuget\\packages\\uipath.telemetry.client\\2.5.26\\lib/netstandard2.0/TelemetryClient.dll"
       ],
       "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.excel.activities\\3.2.0-preview"
     },
     {
       "Package": {
+        "Id": "UiPath.Mail.Activities",
+        "Version": "2.3.0-preview"
+      },
+      "Assemblies": [
+        "C:\\Users\\Dell\\.nuget\\packages\\azure.core\\1.18.0\\lib/net5.0/Azure.Core.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\lib/net6.0/BouncyCastle.Cryptography.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\google.apis\\1.55.0\\lib/netstandard2.0/Google.Apis.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib/netstandard2.0/Google.Apis.Auth.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\google.apis.calendar.v3\\1.55.0.2554\\lib/netstandard2.0/Google.Apis.Calendar.v3.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\google.apis.core\\1.55.0\\lib/netstandard2.0/Google.Apis.Core.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\google.apis.gmail.v1\\1.55.0.2510\\lib/netstandard2.0/Google.Apis.Gmail.v1.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\google.apis.peopleservice.v1\\1.55.0.2567\\lib/netstandard2.0/Google.Apis.PeopleService.v1.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\htmlagilitypack\\1.11.38\\lib/netstandard2.0/HtmlAgilityPack.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\mailkit\\4.7.1.1\\lib/net8.0/MailKit.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\lib/net7.0/Microsoft.Extensions.DependencyInjection.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.3\\lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\lib/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.graph\\4.11.0\\lib/netstandard2.0/Microsoft.Graph.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.graph.core\\2.0.5\\lib/netstandard2.0/Microsoft.Graph.Core.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.identity.client\\4.35.1\\lib/netcoreapp2.1/Microsoft.Identity.Client.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.34.0\\lib/net6.0/Microsoft.IdentityModel.Abstractions.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.34.0\\lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.identitymodel.logging\\6.34.0\\lib/net6.0/Microsoft.IdentityModel.Logging.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.34.0\\lib/net6.0/Microsoft.IdentityModel.Tokens.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\mimekit\\4.7.1\\lib/net8.0/MimeKit.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\newtonsoft.json\\13.0.3\\lib/net6.0/Newtonsoft.Json.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20250625.2\\lib/net6.0-windows7.0/System.Activities.ViewModels.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.34.0\\lib/net6.0/System.IdentityModel.Tokens.Jwt.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\system.linq.async\\5.0.0\\lib/netcoreapp3.1/System.Linq.Async.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\system.linq.async.queryable\\5.0.0\\lib/netcoreapp3.1/System.Linq.Async.Queryable.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\system.memory.data\\1.0.2\\lib/netstandard2.0/System.Memory.Data.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\system.runtime.caching\\6.0.0\\runtimes/win/lib/net6.0/System.Runtime.Caching.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.7\\lib/net6.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.codedworkflows\\24.10.1\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.connectionclient\\2.0.7\\lib/net6.0/ConnectionClient.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.mail.activities\\2.3.0-preview\\lib/net6.0-windows7.0/Interop.Domino.UiPath.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.mail.activities\\2.3.0-preview\\lib/net6.0-windows7.0/Microsoft.Exchange.WebServices.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.mail.activities\\2.3.0-preview\\lib/net6.0-windows7.0/UiPath.Mail.Activities.Api.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.mail.activities\\2.3.0-preview\\lib/net6.0-windows7.0/UiPath.Mail.Activities.Design.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.mail.activities\\2.3.0-preview\\lib/net6.0-windows7.0/UiPath.Mail.Activities.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.mail.activities\\2.3.0-preview\\lib/net6.0-windows7.0/UiPath.Mail.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.mail.activities\\2.3.0-preview\\lib/net6.0-windows7.0/UiPath.MainSessionServer.Shared.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/Microsoft.Office.Interop.Excel.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/Microsoft.Office.Interop.Outlook.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/Microsoft.Office.Interop.PowerPoint.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/Microsoft.Office.Interop.Word.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/Microsoft.Vbe.Interop.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/OFFICE.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/UiPath.OfficeLibs.Package.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.opentelemetry.contracts\\2.5.26\\lib/netstandard2.0/UiPath.OpenTelemetry.Contracts.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.platform\\25.6.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.telemetry.client\\2.5.26\\lib/netstandard2.0/TelemetryClient.dll"
+      ],
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.mail.activities\\2.3.0-preview"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.UIAutomation.Activities",
+        "Version": "25.10.10"
+      },
+      "Assemblies": [
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\lib/net7.0/Microsoft.Extensions.DependencyInjection.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.3\\lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.24\\lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.18\\lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\newtonsoft.json\\13.0.3\\lib/net6.0/Newtonsoft.Json.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\nlog\\4.7.15\\lib/netstandard2.0/NLog.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\polly\\7.2.3\\lib/netstandard2.0/Polly.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath\\25.6.142.41639\\lib/net6.0-windows7.0/SapAutomationConnectivitySdk.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath\\25.6.142.41639\\lib/net6.0-windows7.0/SapAutomationLogger.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath\\25.6.142.41639\\lib/net6.0-windows7.0/SapWinGuiSdk.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath\\25.6.142.41639\\lib/net6.0-windows7.0/UiPath.Interop.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.7\\lib/net6.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.appsignatures\\25.6.142.41639\\lib/net6.0-windows7.0/AppSignatures.Locator.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.codedworkflows\\24.10.1\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/Emgu.CV.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/concrt140.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/cvextern.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/libusb-1.0.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/msvcp140.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/msvcp140_1.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/msvcp140_2.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/msvcp140_atomic_wait.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/msvcp140_codecvt_ids.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/vcruntime140.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/vcruntime140_1.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.imageprocessing\\23.4.0\\lib/net6.0-windows7.0/UiPath.ImageProcessingInterop.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.ocr.activities\\3.22.0\\lib/net6.0-windows7.0/UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.ocr.activities\\3.22.0\\lib/net6.0-windows7.0/UiPath.OCR.Activities.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.ocr.activities\\3.22.0\\lib/net6.0-windows7.0/UiPath.OCR.Core.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.ocr.contracts\\2.17.1\\lib/net6.0-windows7.0/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.opentelemetry.contracts\\2.5.26\\lib/netstandard2.0/UiPath.OpenTelemetry.Contracts.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.platform\\25.6.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.telemetry.client\\2.5.26\\lib/netstandard2.0/TelemetryClient.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities\\25.10.10\\lib/net6.0-windows7.0/UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Design.Contracts.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities\\25.10.10\\lib/net6.0-windows7.0/UiPath.Wizards.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.10\\lib/net6.0-windows7.0/UiPath.CV.Activities.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.10\\lib/net6.0-windows7.0/UiPath.CV.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomationCore.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.API.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Contracts.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.ExternalIntegrations.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.10\\lib/net6.0-windows7.0/UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime.design\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomation.Activities.Runtime.Design.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.design.recoverypanel\\25.10.10\\lib/net6.0/UiPath.UIAutomation.Design.RecoveryPanel.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.vision\\3.15.0\\lib/net6.0-windows7.0/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.vision\\3.15.0\\lib/net6.0-windows7.0/UiPath.Vision.Core.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.vision\\3.15.0\\lib/net6.0-windows7.0/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.vision\\3.15.0\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.vision\\3.15.0\\lib/net6.0-windows7.0/UiPath.Vision.dll"
+      ],
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities\\25.10.10"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.IntegrationService.Activities",
+        "Version": "1.15.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\lib/net7.0/Microsoft.Extensions.DependencyInjection.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.3\\lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.http\\7.0.0\\lib/net7.0/Microsoft.Extensions.Http.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.http.polly\\7.0.5\\lib/netstandard2.0/Microsoft.Extensions.Http.Polly.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\lib/net7.0/Microsoft.Extensions.Logging.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.3\\lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.options\\9.0.3\\lib/net8.0/Microsoft.Extensions.Options.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.3\\lib/net8.0/Microsoft.Extensions.Primitives.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\newtonsoft.json\\13.0.3\\lib/net6.0/Newtonsoft.Json.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\nito.asyncex.coordination\\5.1.2\\lib/netstandard2.0/Nito.AsyncEx.Coordination.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\nito.asyncex.tasks\\5.1.2\\lib/netstandard2.0/Nito.AsyncEx.Tasks.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\nito.collections.deque\\1.1.1\\lib/netstandard2.0/Nito.Collections.Deque.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\nito.disposables\\2.2.1\\lib/netstandard2.1/Nito.Disposables.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\polly\\7.2.3\\lib/netstandard2.0/Polly.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\polly.contrib.waitandretry\\1.1.1\\lib/netstandard2.0/Polly.Contrib.WaitAndRetry.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\polly.extensions.http\\3.0.0\\lib/netstandard2.0/Polly.Extensions.Http.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20250625.2\\lib/net6.0-windows7.0/System.Activities.ViewModels.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\system.runtime.caching\\6.0.0\\runtimes/win/lib/net6.0/System.Runtime.Caching.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.connectionclient\\2.0.7\\lib/net6.0/ConnectionClient.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.integrationservice.activities\\1.15.0\\lib/net8.0/UiPath.IntegrationService.Activities.Runtime.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.integrationservice.activities\\1.15.0\\lib/net8.0/UiPath.IntegrationService.Activities.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.opentelemetry.contracts\\2.5.26\\lib/netstandard2.0/UiPath.OpenTelemetry.Contracts.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.platform\\25.6.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.telemetry.client\\2.5.26\\lib/netstandard2.0/TelemetryClient.dll"
+      ],
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.integrationservice.activities\\1.15.0"
+    },
+    {
+      "Package": {
         "Id": "UiPath.System.Activities",
-        "Version": "25.4.4"
+        "Version": "25.6.1"
       },
       "Assemblies": [
         "C:\\Users\\Dell\\.nuget\\packages\\csvhelper\\33.0.1\\lib/net8.0/CsvHelper.dll",
@@ -72,14 +233,16 @@
         "C:\\Users\\Dell\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0-2.22527.10\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.dll",
         "C:\\Users\\Dell\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0-2.22527.10\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll",
         "C:\\Users\\Dell\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\4.5.0-2.22527.10\\lib/netcoreapp3.1/Microsoft.CodeAnalysis.VisualBasic.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.2\\lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.3\\lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.3\\lib/net8.0/Microsoft.Extensions.Caching.Memory.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\lib/net7.0/Microsoft.Extensions.DependencyInjection.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.3\\lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.features\\6.0.36\\lib/net6.0/Microsoft.Extensions.Features.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.logging\\6.0.1\\lib/netstandard2.1/Microsoft.Extensions.Logging.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.4\\lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\lib/net7.0/Microsoft.Extensions.Logging.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.3\\lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.objectpool\\5.0.17\\lib/net5.0/Microsoft.Extensions.ObjectPool.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.options\\6.0.1\\lib/netstandard2.1/Microsoft.Extensions.Options.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.1\\lib/net6.0/Microsoft.Extensions.Primitives.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.options\\9.0.3\\lib/net8.0/Microsoft.Extensions.Options.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.3\\lib/net8.0/Microsoft.Extensions.Primitives.dll",
         "C:\\Users\\Dell\\.nuget\\packages\\microsoft.management.infrastructure.cimcmdlets\\7.2.24\\runtimes/win/lib/net6.0/Microsoft.Management.Infrastructure.CimCmdlets.dll",
         "C:\\Users\\Dell\\.nuget\\packages\\microsoft.management.infrastructure.runtime.win\\3.0.0\\runtimes/win-x64/lib/netstandard1.6/microsoft.management.infrastructure.dll",
         "C:\\Users\\Dell\\.nuget\\packages\\microsoft.management.infrastructure.runtime.win\\3.0.0\\runtimes/win-x64/lib/netstandard1.6/microsoft.management.infrastructure.native.dll",
@@ -130,143 +293,17 @@
         "C:\\Users\\Dell\\.nuget\\packages\\system.web.services.description\\4.9.0\\lib/netstandard2.0/System.Web.Services.Description.dll",
         "C:\\Users\\Dell\\.nuget\\packages\\uipath.codedworkflows\\24.10.1\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
         "C:\\Users\\Dell\\.nuget\\packages\\uipath.opentelemetry.contracts\\2.5.26\\lib/netstandard2.0/UiPath.OpenTelemetry.Contracts.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.platform\\25.4.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities\\25.4.4\\lib/net6.0-windows7.0/UiPath.System.Activities.Design.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities\\25.4.4\\lib/net6.0-windows7.0/UiPath.System.Activities.ViewModels.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime\\25.4.4\\lib/net6.0-windows7.0/UiPath.System.Activities.Package.Runtime.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.4.4\\lib/net6.0-windows7.0/UiPath.OrchestratorClient.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.4.4\\lib/net6.0-windows7.0/UiPath.System.Activities.Api.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.4.4\\lib/net6.0-windows7.0/UiPath.System.Activities.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.platform\\25.6.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities\\25.6.1\\lib/net6.0-windows7.0/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities\\25.6.1\\lib/net6.0-windows7.0/UiPath.System.Activities.ViewModels.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime\\25.6.1\\lib/net6.0-windows7.0/UiPath.System.Activities.Package.Runtime.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.6.1\\lib/net6.0-windows7.0/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.6.1\\lib/net6.0-windows7.0/UiPath.ServiceClients.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.6.1\\lib/net6.0-windows7.0/UiPath.System.Activities.Api.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.6.1\\lib/net6.0-windows7.0/UiPath.System.Activities.dll",
         "C:\\Users\\Dell\\.nuget\\packages\\uipath.telemetry.client\\2.5.26\\lib/netstandard2.0/TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities\\25.4.4"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.UIAutomation.Activities",
-        "Version": "25.10.10"
-      },
-      "Assemblies": [
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.2\\lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.24\\lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.18\\lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\newtonsoft.json\\13.0.3\\lib/net6.0/Newtonsoft.Json.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\nlog\\4.7.15\\lib/netstandard2.0/NLog.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\polly\\7.1.0\\lib/netstandard2.0/Polly.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath\\25.6.142.41639\\lib/net6.0-windows7.0/SapAutomationConnectivitySdk.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath\\25.6.142.41639\\lib/net6.0-windows7.0/SapAutomationLogger.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath\\25.6.142.41639\\lib/net6.0-windows7.0/SapWinGuiSdk.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath\\25.6.142.41639\\lib/net6.0-windows7.0/UiPath.Interop.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.7\\lib/net6.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.appsignatures\\25.6.142.41639\\lib/net6.0-windows7.0/AppSignatures.Locator.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.codedworkflows\\24.10.1\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/Emgu.CV.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/concrt140.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/cvextern.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/libusb-1.0.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/msvcp140.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/msvcp140_1.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/msvcp140_2.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/msvcp140_atomic_wait.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/msvcp140_codecvt_ids.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/vcruntime140.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.emgucvbundle\\1.3.0\\lib/net6.0/vcruntime140_1.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.imageprocessing\\23.4.0\\lib/net6.0-windows7.0/UiPath.ImageProcessingInterop.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.ocr.activities\\3.22.0\\lib/net6.0-windows7.0/UiPath.OCR.Activities.Design.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.ocr.activities\\3.22.0\\lib/net6.0-windows7.0/UiPath.OCR.Activities.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.ocr.activities\\3.22.0\\lib/net6.0-windows7.0/UiPath.OCR.Core.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.ocr.contracts\\2.17.1\\lib/net6.0-windows7.0/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.opentelemetry.contracts\\2.5.26\\lib/netstandard2.0/UiPath.OpenTelemetry.Contracts.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.platform\\25.4.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.telemetry.client\\2.5.26\\lib/netstandard2.0/TelemetryClient.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities\\25.10.10\\lib/net6.0-windows7.0/UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Design.Contracts.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Design.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities\\25.10.10\\lib/net6.0-windows7.0/UiPath.Wizards.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.10\\lib/net6.0-windows7.0/UiPath.CV.Activities.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.10\\lib/net6.0-windows7.0/UiPath.CV.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomationCore.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.API.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Contracts.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.ExternalIntegrations.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.10\\lib/net6.0-windows7.0/UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities.runtime.design\\25.10.10\\lib/net6.0-windows7.0/UiPath.UIAutomation.Activities.Runtime.Design.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.design.recoverypanel\\25.10.10\\lib/net6.0/UiPath.UIAutomation.Design.RecoveryPanel.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.vision\\3.15.0\\lib/net6.0-windows7.0/UiPath.Vision.AzureComputerVision.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.vision\\3.15.0\\lib/net6.0-windows7.0/UiPath.Vision.Core.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.vision\\3.15.0\\lib/net6.0-windows7.0/UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.vision\\3.15.0\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.vision\\3.15.0\\lib/net6.0-windows7.0/UiPath.Vision.dll"
-      ],
-      "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.uiautomation.activities\\25.10.10"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.Mail.Activities",
-        "Version": "2.3.0-preview"
-      },
-      "Assemblies": [
-        "C:\\Users\\Dell\\.nuget\\packages\\azure.core\\1.18.0\\lib/net5.0/Azure.Core.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\lib/net6.0/BouncyCastle.Cryptography.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\google.apis\\1.55.0\\lib/netstandard2.0/Google.Apis.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib/netstandard2.0/Google.Apis.Auth.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\google.apis.calendar.v3\\1.55.0.2554\\lib/netstandard2.0/Google.Apis.Calendar.v3.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\google.apis.core\\1.55.0\\lib/netstandard2.0/Google.Apis.Core.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\google.apis.gmail.v1\\1.55.0.2510\\lib/netstandard2.0/Google.Apis.Gmail.v1.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\google.apis.peopleservice.v1\\1.55.0.2567\\lib/netstandard2.0/Google.Apis.PeopleService.v1.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\htmlagilitypack\\1.11.38\\lib/netstandard2.0/HtmlAgilityPack.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\mailkit\\4.7.1.1\\lib/net8.0/MailKit.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.2\\lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\lib/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.graph\\4.11.0\\lib/netstandard2.0/Microsoft.Graph.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.graph.core\\2.0.5\\lib/netstandard2.0/Microsoft.Graph.Core.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.identity.client\\4.35.1\\lib/netcoreapp2.1/Microsoft.Identity.Client.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.34.0\\lib/net6.0/Microsoft.IdentityModel.Abstractions.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.34.0\\lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.identitymodel.logging\\6.34.0\\lib/net6.0/Microsoft.IdentityModel.Logging.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Protocols.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.12.2\\lib/netstandard2.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.34.0\\lib/net6.0/Microsoft.IdentityModel.Tokens.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\mimekit\\4.7.1\\lib/net8.0/MimeKit.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\newtonsoft.json\\13.0.3\\lib/net6.0/Newtonsoft.Json.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\system.activities.viewmodels\\1.0.0-20250625.2\\lib/net6.0-windows7.0/System.Activities.ViewModels.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.34.0\\lib/net6.0/System.IdentityModel.Tokens.Jwt.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\system.linq.async\\5.0.0\\lib/netcoreapp3.1/System.Linq.Async.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\system.linq.async.queryable\\5.0.0\\lib/netcoreapp3.1/System.Linq.Async.Queryable.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\system.memory.data\\1.0.2\\lib/netstandard2.0/System.Memory.Data.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\system.runtime.caching\\6.0.0\\runtimes/win/lib/net6.0/System.Runtime.Caching.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.7\\lib/net6.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.codedworkflows\\24.10.1\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.connectionclient\\2.0.4\\lib/net5.0/ConnectionClient.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.mail.activities\\2.3.0-preview\\lib/net6.0-windows7.0/Interop.Domino.UiPath.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.mail.activities\\2.3.0-preview\\lib/net6.0-windows7.0/Microsoft.Exchange.WebServices.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.mail.activities\\2.3.0-preview\\lib/net6.0-windows7.0/UiPath.Mail.Activities.Api.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.mail.activities\\2.3.0-preview\\lib/net6.0-windows7.0/UiPath.Mail.Activities.Design.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.mail.activities\\2.3.0-preview\\lib/net6.0-windows7.0/UiPath.Mail.Activities.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.mail.activities\\2.3.0-preview\\lib/net6.0-windows7.0/UiPath.Mail.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.mail.activities\\2.3.0-preview\\lib/net6.0-windows7.0/UiPath.MainSessionServer.Shared.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/Microsoft.Office.Interop.Excel.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/Microsoft.Office.Interop.Outlook.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/Microsoft.Office.Interop.PowerPoint.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/Microsoft.Office.Interop.Word.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/Microsoft.Vbe.Interop.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/OFFICE.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.officelibs\\1.0.0\\lib/net6.0-windows7.0/UiPath.OfficeLibs.Package.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.opentelemetry.contracts\\2.5.26\\lib/netstandard2.0/UiPath.OpenTelemetry.Contracts.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.platform\\25.4.0\\lib/net6.0-windows7.0/UiPath.Platform.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.telemetry.client\\2.5.26\\lib/netstandard2.0/TelemetryClient.dll"
-      ],
-      "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.mail.activities\\2.3.0-preview"
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities\\25.6.1"
     }
   ],
   "Conflicts": [],
@@ -721,19 +758,55 @@
       "Version": "4.7.0",
       "Dependencies": []
     },
+    "Microsoft.Extensions.Caching.Abstractions": {
+      "Id": "Microsoft.Extensions.Caching.Abstractions",
+      "Version": "9.0.3",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.Primitives",
+          "Item2": "[9.0.3, )"
+        }
+      ]
+    },
+    "Microsoft.Extensions.Caching.Memory": {
+      "Id": "Microsoft.Extensions.Caching.Memory",
+      "Version": "9.0.3",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.Caching.Abstractions",
+          "Item2": "[9.0.3, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "Item2": "[9.0.3, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Logging.Abstractions",
+          "Item2": "[9.0.3, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Options",
+          "Item2": "[9.0.3, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Primitives",
+          "Item2": "[9.0.3, )"
+        }
+      ]
+    },
     "Microsoft.Extensions.DependencyInjection": {
       "Id": "Microsoft.Extensions.DependencyInjection",
-      "Version": "6.0.2",
+      "Version": "7.0.0",
       "Dependencies": [
         {
           "Item1": "Microsoft.Extensions.DependencyInjection.Abstractions",
-          "Item2": "[6.0.0, )"
+          "Item2": "[7.0.0, )"
         }
       ]
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions": {
       "Id": "Microsoft.Extensions.DependencyInjection.Abstractions",
-      "Version": "6.0.0",
+      "Version": "9.0.3",
       "Dependencies": []
     },
     "Microsoft.Extensions.Features": {
@@ -746,36 +819,81 @@
       "Version": "6.0.0",
       "Dependencies": []
     },
-    "Microsoft.Extensions.Logging": {
-      "Id": "Microsoft.Extensions.Logging",
-      "Version": "6.0.1",
+    "Microsoft.Extensions.Http": {
+      "Id": "Microsoft.Extensions.Http",
+      "Version": "7.0.0",
       "Dependencies": [
         {
           "Item1": "Microsoft.Extensions.DependencyInjection.Abstractions",
-          "Item2": "[6.0.0, )"
-        },
-        {
-          "Item1": "Microsoft.Extensions.DependencyInjection",
-          "Item2": "[6.0.2, )"
+          "Item2": "[7.0.0, )"
         },
         {
           "Item1": "Microsoft.Extensions.Logging.Abstractions",
-          "Item2": "[6.0.4, )"
+          "Item2": "[7.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Logging",
+          "Item2": "[7.0.0, )"
         },
         {
           "Item1": "Microsoft.Extensions.Options",
-          "Item2": "[6.0.1, )"
+          "Item2": "[7.0.0, )"
+        }
+      ]
+    },
+    "Microsoft.Extensions.Http.Polly": {
+      "Id": "Microsoft.Extensions.Http.Polly",
+      "Version": "7.0.5",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.Http",
+          "Item2": "[7.0.0, )"
         },
         {
-          "Item1": "System.Diagnostics.DiagnosticSource",
-          "Item2": "[6.0.2, )"
+          "Item1": "Polly",
+          "Item2": "[7.2.3, )"
+        },
+        {
+          "Item1": "Polly.Extensions.Http",
+          "Item2": "[3.0.0, )"
+        }
+      ]
+    },
+    "Microsoft.Extensions.Logging": {
+      "Id": "Microsoft.Extensions.Logging",
+      "Version": "7.0.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "Item2": "[7.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.DependencyInjection",
+          "Item2": "[7.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Logging.Abstractions",
+          "Item2": "[7.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Options",
+          "Item2": "[7.0.0, )"
         }
       ]
     },
     "Microsoft.Extensions.Logging.Abstractions": {
       "Id": "Microsoft.Extensions.Logging.Abstractions",
-      "Version": "6.0.4",
-      "Dependencies": []
+      "Version": "9.0.3",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "Item2": "[9.0.3, )"
+        },
+        {
+          "Item1": "System.Diagnostics.DiagnosticSource",
+          "Item2": "[9.0.3, )"
+        }
+      ]
     },
     "Microsoft.Extensions.ObjectPool": {
       "Id": "Microsoft.Extensions.ObjectPool",
@@ -784,21 +902,21 @@
     },
     "Microsoft.Extensions.Options": {
       "Id": "Microsoft.Extensions.Options",
-      "Version": "6.0.1",
+      "Version": "9.0.3",
       "Dependencies": [
         {
           "Item1": "Microsoft.Extensions.DependencyInjection.Abstractions",
-          "Item2": "[6.0.0, )"
+          "Item2": "[9.0.3, )"
         },
         {
           "Item1": "Microsoft.Extensions.Primitives",
-          "Item2": "[6.0.1, )"
+          "Item2": "[9.0.3, )"
         }
       ]
     },
     "Microsoft.Extensions.Primitives": {
       "Id": "Microsoft.Extensions.Primitives",
-      "Version": "6.0.1",
+      "Version": "9.0.3",
       "Dependencies": []
     },
     "Microsoft.Graph": {
@@ -1670,6 +1788,45 @@
       "Version": "13.0.3",
       "Dependencies": []
     },
+    "Nito.AsyncEx.Coordination": {
+      "Id": "Nito.AsyncEx.Coordination",
+      "Version": "5.1.2",
+      "Dependencies": [
+        {
+          "Item1": "Nito.AsyncEx.Tasks",
+          "Item2": "[5.1.2, )"
+        },
+        {
+          "Item1": "Nito.Collections.Deque",
+          "Item2": "[1.1.1, )"
+        }
+      ]
+    },
+    "Nito.AsyncEx.Tasks": {
+      "Id": "Nito.AsyncEx.Tasks",
+      "Version": "5.1.2",
+      "Dependencies": [
+        {
+          "Item1": "Nito.Disposables",
+          "Item2": "[2.2.1, )"
+        }
+      ]
+    },
+    "Nito.Collections.Deque": {
+      "Id": "Nito.Collections.Deque",
+      "Version": "1.1.1",
+      "Dependencies": []
+    },
+    "Nito.Disposables": {
+      "Id": "Nito.Disposables",
+      "Version": "2.2.1",
+      "Dependencies": [
+        {
+          "Item1": "System.Collections.Immutable",
+          "Item2": "[1.7.1, )"
+        }
+      ]
+    },
     "NJsonSchema": {
       "Id": "NJsonSchema",
       "Version": "10.5.2",
@@ -1737,8 +1894,23 @@
     },
     "Polly": {
       "Id": "Polly",
-      "Version": "7.1.0",
+      "Version": "7.2.3",
       "Dependencies": []
+    },
+    "Polly.Contrib.WaitAndRetry": {
+      "Id": "Polly.Contrib.WaitAndRetry",
+      "Version": "1.1.1",
+      "Dependencies": []
+    },
+    "Polly.Extensions.Http": {
+      "Id": "Polly.Extensions.Http",
+      "Version": "3.0.0",
+      "Dependencies": [
+        {
+          "Item1": "Polly",
+          "Item2": "[7.1.0, )"
+        }
+      ]
     },
     "RadCommons.core": {
       "Id": "RadCommons.core",
@@ -2245,7 +2417,7 @@
     },
     "System.Diagnostics.DiagnosticSource": {
       "Id": "System.Diagnostics.DiagnosticSource",
-      "Version": "6.0.2",
+      "Version": "9.0.3",
       "Dependencies": []
     },
     "System.Diagnostics.EventLog": {
@@ -4361,19 +4533,15 @@
     },
     "UiPath.ConnectionClient": {
       "Id": "UiPath.ConnectionClient",
-      "Version": "2.0.4",
+      "Version": "2.0.7",
       "Dependencies": [
         {
           "Item1": "Newtonsoft.Json",
-          "Item2": "[11.0.2, )"
-        },
-        {
-          "Item1": "System.Net.Http",
-          "Item2": "[4.3.4, )"
+          "Item2": "[13.0.3, )"
         },
         {
           "Item1": "System.Runtime.Caching",
-          "Item2": "[5.0.0, )"
+          "Item2": "[6.0.0, )"
         }
       ]
     },
@@ -4473,6 +4641,48 @@
       "Id": "UiPath.ImageProcessing",
       "Version": "23.4.0",
       "Dependencies": []
+    },
+    "UiPath.IntegrationService.Activities": {
+      "Id": "UiPath.IntegrationService.Activities",
+      "Version": "1.15.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.DependencyInjection",
+          "Item2": "[7.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Http",
+          "Item2": "[7.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Http.Polly",
+          "Item2": "[7.0.5, )"
+        },
+        {
+          "Item1": "Nito.AsyncEx.Coordination",
+          "Item2": "[5.1.2, )"
+        },
+        {
+          "Item1": "Polly.Contrib.WaitAndRetry",
+          "Item2": "[1.1.1, )"
+        },
+        {
+          "Item1": "System.Activities.ViewModels",
+          "Item2": "[1.0.0-20250401.2, )"
+        },
+        {
+          "Item1": "UiPath.ConnectionClient",
+          "Item2": "[2.0.7, )"
+        },
+        {
+          "Item1": "UiPath.Platform",
+          "Item2": "[25.4.0, )"
+        },
+        {
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[2.1.3, )"
+        }
+      ]
     },
     "UiPath.Mail.Activities": {
       "Id": "UiPath.Mail.Activities",
@@ -4649,7 +4859,7 @@
     },
     "UiPath.Platform": {
       "Id": "UiPath.Platform",
-      "Version": "25.4.0",
+      "Version": "25.6.0",
       "Dependencies": [
         {
           "Item1": "Newtonsoft.Json",
@@ -4671,15 +4881,15 @@
     },
     "UiPath.System.Activities": {
       "Id": "UiPath.System.Activities",
-      "Version": "25.4.4",
+      "Version": "25.6.1",
       "Dependencies": [
         {
           "Item1": "UiPath.System.Activities.Runtime",
-          "Item2": "[25.4.4, )"
+          "Item2": "[25.6.1, )"
         },
         {
           "Item1": "CsvHelper",
-          "Item2": "[16.0.0, )"
+          "Item2": "[33.0.1, )"
         },
         {
           "Item1": "Microsoft.AspNet.SignalR.Client",
@@ -4704,6 +4914,14 @@
         {
           "Item1": "Microsoft.CodeAnalysis.VisualBasic",
           "Item2": "[4.5.0-2.22527.10, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Caching.Abstractions",
+          "Item2": "[9.0.3, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Caching.Memory",
+          "Item2": "[9.0.3, )"
         },
         {
           "Item1": "Microsoft.Management.Infrastructure",
@@ -4719,11 +4937,11 @@
         },
         {
           "Item1": "SharpZipLib",
-          "Item2": "[1.3.3, )"
+          "Item2": "[1.4.2, )"
         },
         {
           "Item1": "System.Activities.ViewModels",
-          "Item2": "[1.0.0-20250519.7, )"
+          "Item2": "[1.0.0-20250625.2, )"
         },
         {
           "Item1": "System.Management.Automation",
@@ -4735,7 +4953,7 @@
         },
         {
           "Item1": "UiPath.Platform",
-          "Item2": "[25.4.0, )"
+          "Item2": "[25.6.0, )"
         },
         {
           "Item1": "UiPath.Telemetry.Client",
@@ -4749,21 +4967,21 @@
     },
     "UiPath.System.Activities.Runtime": {
       "Id": "UiPath.System.Activities.Runtime",
-      "Version": "25.4.4",
+      "Version": "25.6.1",
       "Dependencies": [
         {
           "Item1": "UiPath.System.Activities.Runtime.Windows",
-          "Item2": "[25.4.4, )"
+          "Item2": "[25.6.1, )"
         }
       ]
     },
     "UiPath.System.Activities.Runtime.Windows": {
       "Id": "UiPath.System.Activities.Runtime.Windows",
-      "Version": "25.4.4",
+      "Version": "25.6.1",
       "Dependencies": [
         {
           "Item1": "CsvHelper",
-          "Item2": "[16.0.0, )"
+          "Item2": "[33.0.1, )"
         },
         {
           "Item1": "Microsoft.AspNet.SignalR.Client",
@@ -4788,6 +5006,14 @@
         {
           "Item1": "Microsoft.CodeAnalysis.VisualBasic",
           "Item2": "[4.5.0-2.22527.10, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Caching.Abstractions",
+          "Item2": "[9.0.3, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Caching.Memory",
+          "Item2": "[9.0.3, )"
         },
         {
           "Item1": "Microsoft.Management.Infrastructure",
@@ -4807,7 +5033,7 @@
         },
         {
           "Item1": "SharpZipLib",
-          "Item2": "[1.3.3, )"
+          "Item2": "[1.4.2, )"
         },
         {
           "Item1": "System.Management.Automation",
@@ -4819,7 +5045,7 @@
         },
         {
           "Item1": "UiPath.Platform",
-          "Item2": "[25.4.0, )"
+          "Item2": "[25.6.0, )"
         },
         {
           "Item1": "UiPath.Telemetry.Client",
@@ -5077,8 +5303,8 @@
         "Version": "1.55.0"
       },
       "Assemblies": [
-        "C:\\Users\\Dell\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib\\netstandard2.0\\Google.Apis.Auth.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib\\netstandard2.0\\Google.Apis.Auth.PlatformServices.dll"
+        "C:\\Users\\Dell\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib\\netstandard2.0\\Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\google.apis.auth\\1.55.0\\lib\\netstandard2.0\\Google.Apis.Auth.dll"
       ],
       "Path": "C:\\Users\\Dell\\.nuget\\packages\\google.apis.auth\\1.55.0"
     },
@@ -5322,23 +5548,43 @@
     },
     {
       "Package": {
-        "Id": "Microsoft.Extensions.DependencyInjection",
-        "Version": "6.0.2"
+        "Id": "Microsoft.Extensions.Caching.Abstractions",
+        "Version": "9.0.3"
       },
       "Assemblies": [
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.2\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.3\\lib\\net8.0\\Microsoft.Extensions.Caching.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.2"
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.3"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Extensions.Caching.Memory",
+        "Version": "9.0.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.3\\lib\\net8.0\\Microsoft.Extensions.Caching.Memory.dll"
+      ],
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.3"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Extensions.DependencyInjection",
+        "Version": "7.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\lib\\net7.0\\Microsoft.Extensions.DependencyInjection.dll"
+      ],
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0"
     },
     {
       "Package": {
         "Id": "Microsoft.Extensions.DependencyInjection.Abstractions",
-        "Version": "6.0.0"
+        "Version": "9.0.3"
       },
       "Assemblies": [
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.3\\lib\\net8.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0"
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.3"
     },
     {
       "Package": {
@@ -5362,23 +5608,43 @@
     },
     {
       "Package": {
-        "Id": "Microsoft.Extensions.Logging",
-        "Version": "6.0.1"
+        "Id": "Microsoft.Extensions.Http",
+        "Version": "7.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.logging\\6.0.1\\lib\\netstandard2.1\\Microsoft.Extensions.Logging.dll"
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.http\\7.0.0\\lib\\net7.0\\Microsoft.Extensions.Http.dll"
       ],
-      "Path": "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.logging\\6.0.1"
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.http\\7.0.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Extensions.Http.Polly",
+        "Version": "7.0.5"
+      },
+      "Assemblies": [
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.http.polly\\7.0.5\\lib\\netstandard2.0\\Microsoft.Extensions.Http.Polly.dll"
+      ],
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.http.polly\\7.0.5"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Extensions.Logging",
+        "Version": "7.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\lib\\net7.0\\Microsoft.Extensions.Logging.dll"
+      ],
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0"
     },
     {
       "Package": {
         "Id": "Microsoft.Extensions.Logging.Abstractions",
-        "Version": "6.0.4"
+        "Version": "9.0.3"
       },
       "Assemblies": [
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.4\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.3\\lib\\net8.0\\Microsoft.Extensions.Logging.Abstractions.dll"
       ],
-      "Path": "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.4"
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.3"
     },
     {
       "Package": {
@@ -5393,22 +5659,22 @@
     {
       "Package": {
         "Id": "Microsoft.Extensions.Options",
-        "Version": "6.0.1"
+        "Version": "9.0.3"
       },
       "Assemblies": [
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.options\\6.0.1\\lib\\netstandard2.1\\Microsoft.Extensions.Options.dll"
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.options\\9.0.3\\lib\\net8.0\\Microsoft.Extensions.Options.dll"
       ],
-      "Path": "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.options\\6.0.1"
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.options\\9.0.3"
     },
     {
       "Package": {
         "Id": "Microsoft.Extensions.Primitives",
-        "Version": "6.0.1"
+        "Version": "9.0.3"
       },
       "Assemblies": [
-        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.Primitives.dll"
+        "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.3\\lib\\net8.0\\Microsoft.Extensions.Primitives.dll"
       ],
-      "Path": "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.1"
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.3"
     },
     {
       "Package": {
@@ -5809,6 +6075,46 @@
     },
     {
       "Package": {
+        "Id": "Nito.AsyncEx.Coordination",
+        "Version": "5.1.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\Dell\\.nuget\\packages\\nito.asyncex.coordination\\5.1.2\\lib\\netstandard2.0\\Nito.AsyncEx.Coordination.dll"
+      ],
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\nito.asyncex.coordination\\5.1.2"
+    },
+    {
+      "Package": {
+        "Id": "Nito.AsyncEx.Tasks",
+        "Version": "5.1.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\Dell\\.nuget\\packages\\nito.asyncex.tasks\\5.1.2\\lib\\netstandard2.0\\Nito.AsyncEx.Tasks.dll"
+      ],
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\nito.asyncex.tasks\\5.1.2"
+    },
+    {
+      "Package": {
+        "Id": "Nito.Collections.Deque",
+        "Version": "1.1.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\Dell\\.nuget\\packages\\nito.collections.deque\\1.1.1\\lib\\netstandard2.0\\Nito.Collections.Deque.dll"
+      ],
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\nito.collections.deque\\1.1.1"
+    },
+    {
+      "Package": {
+        "Id": "Nito.Disposables",
+        "Version": "2.2.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\Dell\\.nuget\\packages\\nito.disposables\\2.2.1\\lib\\netstandard2.1\\Nito.Disposables.dll"
+      ],
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\nito.disposables\\2.2.1"
+    },
+    {
+      "Package": {
         "Id": "NJsonSchema",
         "Version": "10.5.2"
       },
@@ -5843,12 +6149,32 @@
     {
       "Package": {
         "Id": "Polly",
-        "Version": "7.1.0"
+        "Version": "7.2.3"
       },
       "Assemblies": [
-        "C:\\Users\\Dell\\.nuget\\packages\\polly\\7.1.0\\lib\\netstandard2.0\\Polly.dll"
+        "C:\\Users\\Dell\\.nuget\\packages\\polly\\7.2.3\\lib\\netstandard2.0\\Polly.dll"
       ],
-      "Path": "C:\\Users\\Dell\\.nuget\\packages\\polly\\7.1.0"
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\polly\\7.2.3"
+    },
+    {
+      "Package": {
+        "Id": "Polly.Contrib.WaitAndRetry",
+        "Version": "1.1.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\Dell\\.nuget\\packages\\polly.contrib.waitandretry\\1.1.1\\lib\\netstandard2.0\\Polly.Contrib.WaitAndRetry.dll"
+      ],
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\polly.contrib.waitandretry\\1.1.1"
+    },
+    {
+      "Package": {
+        "Id": "Polly.Extensions.Http",
+        "Version": "3.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Dell\\.nuget\\packages\\polly.extensions.http\\3.0.0\\lib\\netstandard2.0\\Polly.Extensions.Http.dll"
+      ],
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\polly.extensions.http\\3.0.0"
     },
     {
       "Package": {
@@ -6515,12 +6841,12 @@
     {
       "Package": {
         "Id": "System.Diagnostics.DiagnosticSource",
-        "Version": "6.0.2"
+        "Version": "9.0.3"
       },
       "Assemblies": [
-        "C:\\Users\\Dell\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.2\\lib\\net6.0\\System.Diagnostics.DiagnosticSource.dll"
+        "C:\\Users\\Dell\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.3\\lib\\net8.0\\System.Diagnostics.DiagnosticSource.dll"
       ],
-      "Path": "C:\\Users\\Dell\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.2"
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.3"
     },
     {
       "Package": {
@@ -7548,12 +7874,12 @@
     {
       "Package": {
         "Id": "UiPath.ConnectionClient",
-        "Version": "2.0.4"
+        "Version": "2.0.7"
       },
       "Assemblies": [
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.connectionclient\\2.0.4\\lib\\net5.0\\ConnectionClient.dll"
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.connectionclient\\2.0.7\\lib\\net6.0\\ConnectionClient.dll"
       ],
-      "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.connectionclient\\2.0.4"
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.connectionclient\\2.0.7"
     },
     {
       "Package": {
@@ -7599,6 +7925,17 @@
         "C:\\Users\\Dell\\.nuget\\packages\\uipath.imageprocessing\\23.4.0\\lib\\net6.0-windows7.0\\UiPath.ImageProcessingInterop.dll"
       ],
       "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.imageprocessing\\23.4.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.IntegrationService.Activities",
+        "Version": "1.15.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.integrationservice.activities\\1.15.0\\lib\\net8.0\\UiPath.IntegrationService.Activities.Runtime.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.integrationservice.activities\\1.15.0\\lib\\net8.0\\UiPath.IntegrationService.Activities.dll"
+      ],
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.integrationservice.activities\\1.15.0"
     },
     {
       "Package": {
@@ -7667,45 +8004,46 @@
     {
       "Package": {
         "Id": "UiPath.Platform",
-        "Version": "25.4.0"
+        "Version": "25.6.0"
       },
       "Assemblies": [
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.platform\\25.4.0\\lib\\net6.0-windows7.0\\UiPath.Platform.dll"
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.platform\\25.6.0\\lib\\net6.0-windows7.0\\UiPath.Platform.dll"
       ],
-      "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.platform\\25.4.0"
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.platform\\25.6.0"
     },
     {
       "Package": {
         "Id": "UiPath.System.Activities",
-        "Version": "25.4.4"
+        "Version": "25.6.1"
       },
       "Assemblies": [
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities\\25.4.4\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Design.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities\\25.4.4\\lib\\net6.0-windows7.0\\UiPath.System.Activities.ViewModels.dll"
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities\\25.6.1\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Design.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities\\25.6.1\\lib\\net6.0-windows7.0\\UiPath.System.Activities.ViewModels.dll"
       ],
-      "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities\\25.4.4"
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities\\25.6.1"
     },
     {
       "Package": {
         "Id": "UiPath.System.Activities.Runtime",
-        "Version": "25.4.4"
+        "Version": "25.6.1"
       },
       "Assemblies": [
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime\\25.4.4\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Package.Runtime.dll"
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime\\25.6.1\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Package.Runtime.dll"
       ],
-      "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime\\25.4.4"
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime\\25.6.1"
     },
     {
       "Package": {
         "Id": "UiPath.System.Activities.Runtime.Windows",
-        "Version": "25.4.4"
+        "Version": "25.6.1"
       },
       "Assemblies": [
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.4.4\\lib\\net6.0-windows7.0\\UiPath.OrchestratorClient.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.4.4\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Api.dll",
-        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.4.4\\lib\\net6.0-windows7.0\\UiPath.System.Activities.dll"
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.6.1\\lib\\net6.0-windows7.0\\UiPath.OrchestratorClient.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.6.1\\lib\\net6.0-windows7.0\\UiPath.ServiceClients.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.6.1\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Api.dll",
+        "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.6.1\\lib\\net6.0-windows7.0\\UiPath.System.Activities.dll"
       ],
-      "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.4.4"
+      "Path": "C:\\Users\\Dell\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.6.1"
     },
     {
       "Package": {
